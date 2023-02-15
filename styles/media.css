@@ -1,4 +1,9 @@
 @media screen and (max-width: 760px){
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   
   .mulher{
     display: none;
@@ -6,7 +11,9 @@
   }
 
   .advinhar-numero{
-    flex-direction: row; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px; 
 }
 
 }
